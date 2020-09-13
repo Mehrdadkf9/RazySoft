@@ -1,0 +1,185 @@
+{
+  "name": "آقای روحانی",
+  "razy_code": "18203",
+  "phone_number": "09125596544",
+  "branches": [
+    {
+      "code": 10279,
+      "name": "آقای روحانی",
+      "address": "",
+      "apps": [
+        {
+          "dongle": "9999910279",
+          "app_id": 3638,
+          "name": "اتوماسيون فروش",
+          "buy_date": "2018-07-22",
+          "expiration_date": "2020-02-20",
+          "user_count": 1,
+          "support_plan": "VIP"
+        },
+        {
+          "dongle": "1027999999",
+          "app_id": 4117,
+          "name": "نرم افزار دستمزد و حقوق",
+          "buy_date": "2019-07-02",
+          "expiration_date": "2020-07-01",
+          "user_count": 1,
+          "support_plan": "VIP"
+        }
+      ]
+    },
+    {
+      "code": 1027911,
+      "name": "فروشگاه تکتاز1",
+      "address": "شیراز- بلوار جدید قرآن",
+      "apps": [
+        {
+          "dongle": "211089101073",
+          "app_id": 2872,
+          "name": "اتوماسيون فروش",
+          "buy_date": "2013-05-21",
+          "expiration_date": "2019-03-13",
+          "user_count": 3,
+          "support_plan": "VIP"
+        }
+      ]
+    },
+    {
+      "code": 1027912,
+      "name": "فروشگاه تکتاز2",
+      "address": "شیراز-  خیابان نارون- نبش خیابان یزدان مهر",
+      "apps": [
+        {
+          "dongle": "201090028463",
+          "app_id": 2873,
+          "name": "اتوماسيون فروش",
+          "buy_date": "2013-05-21",
+          "expiration_date": null,
+          "user_count": 2,
+          "support_plan": "VIP"
+        }
+      ]
+    },
+    {
+      "code": 1027913,
+      "name": "فروشگاه کنزو1",
+      "address": "شیراز-فلکه گاز-خیابان جهاد سازندگی-نرسیده به چهارراه چنچنه",
+      "apps": [
+        {
+          "dongle": "221091036850",
+          "app_id": 2874,
+          "name": "اتوماسيون فروش",
+          "buy_date": "2013-05-21",
+          "expiration_date": null,
+          "user_count": 2,
+          "support_plan": "VIP"
+        }
+      ]
+    },
+    {
+      "code": 1027914,
+      "name": "فروشگاه کنزو2",
+      "address": "شیراز-خیابان سمیه-روبروی درب اصلی پارک آزادی",
+      "apps": [
+        {
+          "dongle": "210494082305",
+          "app_id": 2875,
+          "name": "اتوماسيون فروش",
+          "buy_date": "2013-05-21",
+          "expiration_date": null,
+          "user_count": 1,
+          "support_plan": "VIP"
+        }
+      ]
+    },
+    {
+      "code": 1027915,
+      "name": "فروشگاه تکتاز1",
+      "address": "شیراز- بلوارجدید قرآن",
+      "apps": [
+        {
+          "dongle": "221091112613",
+          "app_id": 2871,
+          "name": "اتوماسيون فروش",
+          "buy_date": "2013-05-21",
+          "expiration_date": null,
+          "user_count": 1,
+          "support_plan": "VIP"
+        }
+      ]
+    },
+    {
+      "code": 1027916,
+      "name": "آقای روحانی - سیستم جدید 1",
+      "address": "",
+      "apps": [
+        {
+          "dongle": "231091112991",
+          "app_id": 2876,
+          "name": "اتوماسيون فروش",
+          "buy_date": "2013-07-08",
+          "expiration_date": null,
+          "user_count": 1,
+          "support_plan": "VIP"
+        }
+      ]
+    },
+    {
+      "code": 1027917,
+      "name": "آقای روحانی - سیستم جدید 2(سیستم جنب سرور)",
+      "address": "",
+      "apps": [
+        {
+          "dongle": "220494082156",
+          "app_id": 2877,
+          "name": "اتوماسيون فروش",
+          "buy_date": "2013-07-08",
+          "expiration_date": null,
+          "user_count": 1,
+          "support_plan": "VIP"
+        }
+      ]
+    },
+    {
+      "code": 1027918,
+      "name": "آقای روحانی - لپ تاپ",
+      "address": "",
+      "apps": [
+        {
+          "dongle": "301092022513",
+          "app_id": 2878,
+          "name": "اتوماسيون فروش",
+          "buy_date": "2015-01-03",
+          "expiration_date": null,
+          "user_count": 1,
+          "support_plan": "VIP"
+        }
+      ]
+    },
+    {
+      "code": 1027919,
+      "name": "آقای روحانی",
+      "address": "",
+      "apps": [
+        {
+          "dongle": "220294082286",
+          "app_id": 2869,
+          "name": "اتوماسيون فروش",
+          "buy_date": "2016-01-13",
+          "expiration_date": null,
+          "user_count": 2,
+          "support_plan": "VIP"
+        },
+        {
+          "dongle": "210294082190",
+          "app_id": 2870,
+          "name": "اتوماسيون فروش",
+          "buy_date": "2018-01-01",
+          "expiration_date": null,
+          "user_count": 1,
+          "support_plan": "VIP"
+        }
+      ]
+    }
+  ]
+}

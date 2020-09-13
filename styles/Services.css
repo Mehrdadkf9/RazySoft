@@ -1,0 +1,78 @@
+.service-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 20px 0 50px 0;
+}
+
+.service-description {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  width: 90%;
+  direction: rtl;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-register {
+  display: flex;
+  justify-content: space-between;
+  color: steelblue;
+  font-size: 3.5vw;
+  margin-bottom: 10px;
+}
+
+.service-date-table {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  border-bottom: 1px solid steelblue;
+}
+
+.service-date-table td {
+  width: 33%;
+  font-size: 2.5vw;
+  padding: 5px;
+}
+
+.service-register2 {
+    display: flex;
+    flex-direction: column;
+  padding: 10px 0;
+  border-bottom: 1px solid steelblue;
+}
+
+.service-register2 td {
+  width: 50%;
+  font-size: 2.5vw;
+  padding: 5px;
+}
+
+.service-invoice {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.service-invoice td {
+  width: 50%;
+  font-size: 3vw;
+  padding: 5px 15px;
+  color: tomato;
+}
+
+.service-invoice button {
+  margin-top: 10px;
+  background-color: steelblue;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 3vw;
+}
+
+.service-invoice button:hover {
+  background-color: skyblue;
+  color: #132046;
+}

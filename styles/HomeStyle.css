@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "IRANSansWeb";
+  src: url("../fonts/IRANSansWeb(FaNum).woff2") format("woff2");
+}
+
+* {
+  font-family: "IRANSansWeb";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+/* .logo {
+  height: 120px;
+  position: fixed;
+  right: 60px;
+  top: 30px;
+  z-index: -1;
+} */
+
+.home-header {
+  position: relative;
+  width: 100%;
+  margin-top: 0;
+  display: flex;
+}
+
+.home-background {
+  background: linear-gradient(
+    -60deg,
+    white 20%,
+    rgba(70, 131, 180, 0.384),
+    steelblue,
+    #132046
+  );
+  width: 100%;
+  height: 240px;
+  position: relative;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.logo {
+  height: 150px;
+}
+
+.shortlink {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.shortlink > a {
+  color: white;
+  text-decoration-line: none;
+  height: fit-content;
+  padding: 0 0 0 15px;
+}
+
+.shortlink > a:hover {
+  color: blue;
+}
+
+.main-cube-menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+  margin-bottom: 60px;
+}
+
+.main-cube-menu > ul {
+  z-index: 1;
+}
+
+.cube-menu {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cube-menu > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  width: 45%;
+  height: width;
+  background-color: white;
+  margin-bottom: 15px;
+  box-shadow: 0px 3px 6px rgb(100, 100, 100);
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+.cube-menu > li > a :hover {
+  transform: scale(1.1);
+}
+
+.cube-menu > li > a {
+  text-decoration-line: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cube-menu > li > a > p {
+  text-align: center;
+  font-size: 3vw;
+  margin: 10px 0;
+  color: #132046;
+}
+
+.footer {
+  height: 5%;
+  width: 100%;
+  background: linear-gradient(to top, salmon, #f5f5f5);
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  z-index: 200;
+}
+
+.footer > div{
+font-size: 3vw;
+}
+
+
+
+#date,
+#welcom {
+  flex-grow: 1;
+  text-align: center;
+  color: #132046;
+  font-size: 2vw;
+}
+
+@media screen and (min-width: 576px) {
+  .cube-menu > li {
+    list-style-type: none;
+    width: 45%;
+    background-color: white;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 6px rgb(100, 100, 100);
+    padding: 20px 10px;
+    border-radius: 10px;
+    height: 30%;
+  }
+  .main-cube-menu {
+    margin-bottom: 250px;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  * {
+    font-size: 17px !important;
+  }
+  .main-cube-menu {
+    margin-bottom: 0;
+  }
+  .cube-menu {
+    height: 400px;
+  }
+  .cube-menu > li {
+    width: 22%;
+    height: 150px;
+  }
+  .shortlink > a {
+    font-size: 2em !important;
+  }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <script src="https://use.fontawesome.com/ed67404a1c.js"></script> -->
+    <script src="../scripts/fontawsome.js"></script>
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+</head>
+
+
+
+<body>
+
+    <header class="fixed-header">
+        <img src="../img/logo.png" alt="" class="logo">
+        <p> پرتال مشتریان رازی </p>
+        <a href="#" class="fa fa-question-circle-o "></a>
+    </header>
+
+    <div class="login-container">
+        <div class="login">
+            <form method="POST" id="login-form">
+                <label for="id-number">شماره اشتراک</label>
+                <input type="number" name="id-number" id="id-number" placeholder="شماره اشتراک یک عدد 5 رقمی است">
+                <label for="psw">رمز عبور  </label>
+                <input type="password" name="psw" id="login-password" placeholder="شماره موبایل">
+                <input class="submit-button" type="submit" value="ورود">
+                <p id="error-login"></p>
+                <div class="remember-me">
+                    <!-- <input type="checkbox" name="remember-me" id="remember-me"> -->
+                    <!-- <label for="remember-me">مرا به خاطر بسپار</label>
+                    <a href="#" class="forgot-psw">فراموشی رمز عبور</a> -->
+                </div>
+                <p>پس از اولین ورود به برنامه از قسمت تکمیل پروفایل نسبت به تغییر رمز ورود خود اقدام فرمایید</p>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div class="background">
+        <img src="../img/Group 12@2x.jpg" alt="">
+    </div>
+
+
+
+    <!-- 
+<script>
+fetch("https://portal-razy.fandogh.cloud/api/authenticate/", { 
+method: "GET" , 
+headers: {"Authorization": "Basic " + btoa("18203" + ":" + "secret")}
+})
+.then((res) => res.json())
+.then((res) => { console.log(res) })
+</script> -->
+
+</body>
+
+<script src="../scripts/login.js"></script>
+
+</html>

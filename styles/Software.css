@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "IRANSansWeb";
+  src: url("../fonts/IRANSansWeb(FaNum).woff2") format("woff2");
+}
+
+* {
+  font-family: "IRANSansWeb";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+th{
+  border-bottom: 2px solid salmon;
+  padding-bottom: 10px;
+}
+
+.table-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 30px 0 50px 0;
+}
+
+.soft-table {
+  background-color: rgba(255,255,255,.7);
+  display: flex;
+  width: 90%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.soft-table tbody {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.soft-table tr {
+  direction: rtl;
+  display: flex;
+  font-size: 3vw;
+  width: 100%;
+}
+
+.soft-table tr th {
+  display: flex;
+  width: 20%;
+  border-collapse: collapse;
+  justify-content: center;
+  align-items: center;
+}
+
+.soft-table tr td {
+  border-collapse: collapse;
+  display: flex;
+  padding: 15px 10px;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.soft-table tr td a:nth-child(1) {
+  margin: 0 5px 0 10px;
+}
+.soft-table tr td a:nth-child(2) {
+  margin: 0 0 0 5px;
+}
+
+.soft-table tr td a{
+  text-decoration-line: none;
+  color: salmon;
+}
+
+
+.soft-table tr td a:hover {
+  transform: scale(1.1);
+}

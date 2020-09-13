@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "IRANSansWeb";
+  src: url("../fonts/IRANSansWeb(FaNum).woff2") format("woff2");
+}
+
+* {
+  font-family: "IRANSansWeb";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#profile-form {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 80%;
+  border-radius: 10px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+  margin: 30px 0;
+}
+
+#profile-form > input {
+  background-color: rgba(0, 0, 0, 0);
+  color: steelblue;
+  direction: rtl;
+  border: none;
+  border-bottom: 2px solid steelblue;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 3vw;
+}
+
+input:focus {
+  border-color: salmon !important;
+  transform: scale(1.2);
+  background-color: #f5f5f5 !important;
+}
+
+.profile-header > H3 {
+  color: #132046;
+  font-size: 4.5vw;
+  margin: 30px 0 0 30px;
+  z-index: 1;
+}
+
+.profile-header {
+  display: flex;
+  margin-top: -30px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile-header > img {
+  box-shadow: 0px 3px 6px rgb(100, 100, 100);
+  padding: 40px 40px;
+  border-radius: 10px;
+  background-color: white;
+  z-index: 1;
+}
+
+.attention {
+  color: salmon;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  direction: rtl;
+  font-size: 3vw;
+  margin-bottom: 50px;
+}

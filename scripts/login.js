@@ -35,17 +35,13 @@ function login(event) {
       },
     })
       .then((res) => {
-        console.log("#1");
         if (res.status !== 201) {
-          console.log("#2");
           loginerror.innerHTML = "* شماره اشتراک یا رمز عبور نامعتبر است";
           throw Error("");
         }
-        console.log("#3");
         return res.json();
       })
       .then((res) => {
-        console.log("#4");
         console.log(res);
         var userToken = res.token;
         localStorage.setItem("token", userToken);
@@ -53,7 +49,6 @@ function login(event) {
         location.replace("Home.html");
       })
       .catch((e) => {
-        console.log("#5");
         console.log(e);
       });
   }
